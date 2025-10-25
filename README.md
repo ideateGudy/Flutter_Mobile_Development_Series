@@ -8,6 +8,7 @@
 ## How to use this roadmap
 
 - Use the task checkboxes to track progress. Check a day's main box when the day's learning + project are done.
+- To mark a task as completed add `x` to the box: `[x]`
 - Optionally check sub-items as you finish them for finer tracking.
 - Preview this file in your Markdown viewer (GitHub / VS Code) to see the TOC and task list rendered nicely.
 
