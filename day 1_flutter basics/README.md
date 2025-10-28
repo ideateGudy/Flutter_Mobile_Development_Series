@@ -17,7 +17,7 @@
   - [Difference between Stateless & Stateful widgets](#difference-between-stateless--stateful-widgets)
   - [Stateful Widget Lifecycle](#stateful-widget-lifecycle-initstate-dispose)
     - [How setState() triggers UI rebuilds](#how-setstate-triggers-ui-rebuilds)
-  - [Counter App Example](#counter-app-example)
+  - [Text Changer App Example](#text-changer-app-example)
   - [Summary](#summary)
 
 ---
@@ -149,11 +149,9 @@ When `setState()` is called, the following sequence of events occurs:
 5. The framework compares the new widget tree with the previous one and determines which parts of the UI need to be updated.
 6. Finally, the framework updates the UI by redrawing only the affected parts of the widget tree, resulting in a smooth and efficient update to the user interface.
 
-## Counter App Example
+## Text Changer App Example
 
-I'll be explaining the default Counter App that comes with Flutter when you create a new Flutter project.
-
-Click [Here to view the Counter App Explanation.](./counter_app/README.md) to view the Counter App Explanation.
+Click [Here to view the Text Changer App Explanation.](./text_changer/README.md) to view the Text Changer App Explanation.
 
 ## Summary
 

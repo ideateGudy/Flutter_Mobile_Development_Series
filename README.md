@@ -46,14 +46,14 @@ This week focuses on how data flows inside your app and how to save it locally. 
 
 ### Day 1 — Flutter Basics
 
-- [ ] Day 1 completed
+- [x] Day 1 completed
   - Learn:
   - [x] Flutter Basics Overview
   - [x] The Widget Tree in Flutter
   - [x] Difference between Stateless & Stateful widgets
   - [x] Stateful Widget Lifecycle (initState, dispose)
   - Practice Project:
-    - [ ] Counter App — Increment/decrement numbers
+    - [x] Text Changer App
 
 ---
 
