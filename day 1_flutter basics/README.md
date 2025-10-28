@@ -2,7 +2,7 @@
 
 ## Day 1 — Flutter Basics
 
-- [ ] Day 1 completed
+- [x] Day 1 completed
   - [Flutter Basics Overview](#flutter-basics-overview)
     - [What is Flutter?](#what-is-flutter)
     - [Dart](#dart)
