@@ -44,7 +44,7 @@ Multiplatform development refers to the ability to create applications that can 
 
 ### What exactly is State?
 
-    Now you may wonder what state is. In simple terms, state refers to the data or information that determines the behavior and appearance of a widget at a given time. For example, the state of a button widget may include whether it is enabled or disabled, its color, and its text label.
+  Now you may wonder what state is. In simple terms, state refers to the data or information that determines the behavior and appearance of a widget at a given time. For example, the state of a button widget may include whether it is enabled or disabled, its color, and its text label.
 
 ![Flutter State](./img/state.png)
 
@@ -74,7 +74,7 @@ The `main` function is the entry point of a Flutter application. It is where the
 
 #### Cupertino vs Material Widgets
 
-    Flutter provides two sets of pre-designed widgets: Material widgets and Cupertino widgets. Material widgets are designed to follow the Material Design guidelines developed by Google, while Cupertino widgets are designed to follow the iOS design guidelines developed by Apple. Depending on the target platform, developers can choose to use either set of widgets or a combination of both to create a consistent user experience across different platforms.
+  Flutter provides two sets of pre-designed widgets: Material widgets and Cupertino widgets. Material widgets are designed to follow the Material Design guidelines developed by Google, while Cupertino widgets are designed to follow the iOS design guidelines developed by Apple. Depending on the target platform, developers can choose to use either set of widgets or a combination of both to create a consistent user experience across different platforms.
 
 ### Flutter Rendering and UI Architecture
 
