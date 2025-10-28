@@ -44,7 +44,7 @@
 
 This week focuses on how data flows inside your app and how to save it locally. Build progressively more powerful apps each day.
 
-### Day 1 — Flutter State Basics
+### Day 1 — Flutter Basics
 
 - [ ] Day 1 completed
   - Learn:
