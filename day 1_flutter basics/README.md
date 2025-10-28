@@ -78,7 +78,7 @@ The `main` function is the entry point of a Flutter application. It is where the
 
 ### Flutter Rendering and UI Architecture
 
-    Flutter initially renders the UI using skia, a 2D graphics rendering engine. Skia is responsible for drawing the UI elements on the screen, and it provides a high-performance rendering pipeline that allows for smooth animations and transitions. But with the release of Flutter 3.0, Flutter introduced a new rendering engine called Impeller, which is designed to provide even better performance and visual fidelity. Impeller is a next-generation rendering engine that leverages modern graphics APIs like Metal on iOS and Vulkan on Android to deliver high-quality graphics and smooth animations.
+  Flutter initially renders the UI using skia, a 2D graphics rendering engine. Skia is responsible for drawing the UI elements on the screen, and it provides a high-performance rendering pipeline that allows for smooth animations and transitions. But with the release of Flutter 3.0, Flutter introduced a new rendering engine called Impeller, which is designed to provide even better performance and visual fidelity. Impeller is a next-generation rendering engine that leverages modern graphics APIs like Metal on iOS and Vulkan on Android to deliver high-quality graphics and smooth animations.
 
 Flutter's rendering and UI architecture is primarily built upon three main trees:
 
