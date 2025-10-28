@@ -128,9 +128,9 @@ Stateful widgets have a lifecycle that consists of several stages, each represen
 4. **build()**: This method is called whenever the widget needs to be rebuilt, either due to a change in state or when the parent widget rebuilds. It returns the widget tree that represents the UI of the stateful widget.
 ![build method](./img/buildcontext.png)
 5. **setState()**: (Triggered by you) This method is used to notify the framework that the state of the widget has changed and that it needs to be rebuilt.
-6. **didUpdateWidget()**: This method is called whenever the parent widget rebuilds and passes new configuration data down to the child stateful widget. It allows the state to respond to changes in the widget's properties by passing the updated stateful widget as a parameter.
 ![setState](./img/setState.png)
 The image above illustrates how calling `setState()` leads to the invocation of the `build()` method, when the user hits enter after inputing a city name in the TextField. it fetches new weather data and updates the UI accordingly.
+6. **didUpdateWidget()**: This method is called whenever the parent widget rebuilds and passes new configuration data down to the child stateful widget. It allows the state to respond to changes in the widget's properties by passing the updated stateful widget as a parameter.
 7. **deactivate()**: This method is called when the State object is removed from the Element tree, but before it is disposed. This might happen temporarily if the widget is moved to a different part of the tree.
 8. **dispose()**: This is called after deactivate() when the State object is permanently removed from the tree. This is the last method called, and it's essential to use it for cleanup (e.g., canceling timers, unsubscribing from streams, disposing of controllers) to prevent memory leaks.
 ![dispose](./img/dispose.png)
