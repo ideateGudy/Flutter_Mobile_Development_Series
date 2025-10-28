@@ -20,7 +20,7 @@
    [How to use this roadmap](#how-to-use-this-roadmap)
   - [Table of contents](#table-of-contents)
     - [Week 1 — State Management and Local Storage](#week-1--state-management-and-local-storage)
-      - [Day 1 — Flutter Basics](#day-1--flutter-state-basics)
+      - [Day 1 — Flutter Basics](#day-1--flutter-basics)
       - [Day 2 — Scalable State with Provider](#day-2--scalable-state-with-provider)
       - [Day 3 — Persistent State with SharedPreferences](#day-3--persistent-state-with-sharedpreferences)
       - [Day 4 — Structured Local Storage with Hive](#day-4--structured-local-storage-with-hive)
@@ -48,10 +48,10 @@ This week focuses on how data flows inside your app and how to save it locally. 
 
 - [ ] Day 1 completed
   - Learn:
-  - [ ] Flutter Basics Overview
-  - [ ] The Widget Tree in Flutter
-  - [ ] Difference between Stateless & Stateful widgets
-  - [ ] Stateful Widget Lifecycle (initState, dispose)
+  - [x] Flutter Basics Overview
+  - [x] The Widget Tree in Flutter
+  - [x] Difference between Stateless & Stateful widgets
+  - [x] Stateful Widget Lifecycle (initState, dispose)
   - Practice Project:
     - [ ] Counter App — Increment/decrement numbers
 
