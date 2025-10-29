@@ -151,7 +151,7 @@ When `setState()` is called, the following sequence of events occurs:
 
 ## Text Changer App Example
 
-Click [Here to view the Text Changer App Explanation.](./text_changer/README.md) to view the Text Changer App Explanation.
+Click [Here to view the Text Changer App Explanation.](./text_changer/README.md).
 
 ## Summary
 
