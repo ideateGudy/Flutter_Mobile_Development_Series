@@ -82,6 +82,7 @@ class _ChangeTextState extends State<ChangeText> {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        // A simple animated container that changes its appearance based on the isChanged state.
         AnimatedContainer(
           duration: const Duration(milliseconds: 300),
           decoration: BoxDecoration(
