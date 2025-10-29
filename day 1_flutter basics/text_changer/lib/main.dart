@@ -1,19 +1,30 @@
 import 'package:flutter/material.dart';
 
 void main() {
+  // This is the root of the application.
   runApp(const MyApp());
 }
 
+/* MyApp is a StatelessWidget that defines the overall structure of the app.
+   It uses MaterialApp to provide material design styling and sets up a Scaffold (Blank white page)
+   with a centered Card containing the main content. */
 class MyApp extends StatelessWidget {
+  // Constructor for MyApp 
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { // Build method to describe the part of the user interface represented by this widget.
+    // MaterialApp is the root widget of the application.
     return const MaterialApp(
+      // Disable the debug banner
       debugShowCheckedModeBanner: false,
+      // Scaffold provides a framework for the basic material design visual layout structure.
       home:  Scaffold(
+        // Center widget centers its child(Card) within itself. (Box at the center of the screen)
         body: Center(
+          // Card widget to create a material design card.
           child:  Card(
+            // Styling the Card
             margin: EdgeInsets.all(100),
             elevation: 20,
             shadowColor: Colors.purple,
@@ -46,6 +57,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// ChangeText is a StatefulWidget that manages the state of the text displayed and changes it when a button is pressed.
 class ChangeText extends StatefulWidget {
   const ChangeText({super.key});
 
@@ -53,6 +65,7 @@ class ChangeText extends StatefulWidget {
   State<ChangeText> createState() => _ChangeTextState();
 }
 
+// _ChangeTextState is the state class for ChangeText widget.
 class _ChangeTextState extends State<ChangeText> {
   late bool isChanged;
   String displayText() {
